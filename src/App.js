@@ -10,7 +10,7 @@ export class App extends Component {
   render() {
     return (
       <>
-        <h1>Yo</h1>
+        <h1 className="text-xl">Yo</h1>
       </>
     );
   }
