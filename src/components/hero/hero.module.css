@@ -3,6 +3,7 @@
   border-bottom: 2px solid white;
   position: relative;
   z-index: 0;
+  overflow: hidden;
 }
 .hero-container > img:first-child {
   margin-bottom: 2rem;
