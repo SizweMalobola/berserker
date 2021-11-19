@@ -11,7 +11,20 @@ export default class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className={styles["nav"]}></nav>
+        <nav className={styles["nav"]}>
+          <div>
+            <img
+              alt="berserk logo"
+              src={`${process.env.PUBLIC_URL}/assets/berserk-logo.png`}
+            />
+            <div className={styles["menuToggle"]}>
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </nav>
       </>
     );
   }
