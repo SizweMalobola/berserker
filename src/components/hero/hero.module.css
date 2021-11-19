@@ -1,12 +1,36 @@
 .hero-container {
   padding: 3rem 21px 1rem 21px;
   border-bottom: 2px solid white;
+  position: relative;
+  z-index: 0;
 }
-.hero-container > img {
+.hero-container > img:first-child {
   margin-bottom: 2rem;
+  z-index: 4;
+  display: block;
+}
+.background-hero-img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: -180px;
+  z-index: -1;
 }
 
 .hero-container > p {
   font-size: 18px;
   line-height: 22px;
+  z-index: 4;
+  display: block;
+  font-weight: 400;
+}
+/* background overlay */
+.hero-container > span {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 1, 1, 0.288);
+  z-index: -1;
 }

@@ -18,6 +18,12 @@ function Hero() {
         dissection in May 2021. A posthumous chapter was published in the
         magazine in September 2021.
       </p>
+      <img
+        className={styles["background-hero-img"]}
+        alt="berserk hero section background"
+        src={`${process.env.PUBLIC_URL}/assets/hero-background.png`}
+      />
+      <span></span>
     </div>
   );
 }
