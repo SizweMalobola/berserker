@@ -1,2 +1,12 @@
 .hero-container {
+  padding: 3rem 21px 1rem 21px;
+  border-bottom: 2px solid white;
+}
+.hero-container > img {
+  margin-bottom: 2rem;
+}
+
+.hero-container > p {
+  font-size: 18px;
+  line-height: 22px;
 }
