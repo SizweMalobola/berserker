@@ -1,2 +1,15 @@
 .character-box-container {
+  width: 286px;
+  background: rgba(244, 2, 2, 1);
+  border: 2px solid whitesmoke;
+  overflow: hidden;
+  margin: 32px auto;
+}
+.character-box-container:last-child {
+  margin-bottom: 0;
+}
+.character-box-container > h3 {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
 }
