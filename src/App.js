@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import MangaSection from "./components/manga/MangaSection";
 import Navbar from "./components/navbar/Navbar";
 import QuoteSection from "./components/quote/QuoteSection";
+import WorksSection from "./components/works/WorksSection";
 
 export class App extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ export class App extends Component {
         <QuoteSection />
         <MangaSection />
         <CharacterSection />
+        <WorksSection />
       </>
     );
   }
