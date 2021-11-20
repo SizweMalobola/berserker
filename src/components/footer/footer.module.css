@@ -1,4 +1,24 @@
 .footer-container {
   background-color: rgba(244, 2, 2, 1);
   padding: 26px 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container > h3 {
+  font-weight: 900;
+  font-size: 13px;
+}
+.footer-container > img {
+  width: 18px;
+}
+.footer-container > div {
+  display: flex;
+}
+.footer-container > div > a {
+  margin-left: 15px;
+}
+
+.footer-container > div > a img {
+  width: 15px;
 }
