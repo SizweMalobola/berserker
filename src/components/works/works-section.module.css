@@ -1,3 +1,8 @@
 .works-container {
   padding: 0 21px;
+  padding-bottom: 20px;
+}
+.works-img {
+  margin-bottom: 27px;
+  width: 100%;
 }

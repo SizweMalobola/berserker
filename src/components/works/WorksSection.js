@@ -6,6 +6,21 @@ function WorksSection() {
   return (
     <section className={styles["works-container"]}>
       <SectionHeader name="works" />
+      <img
+        className={styles["works-img"]}
+        alt="berserk works 1"
+        src={`${process.env.PUBLIC_URL}/assets/works1.jpeg`}
+      />
+      <img
+        className={styles["works-img"]}
+        alt="berserk works 2"
+        src={`${process.env.PUBLIC_URL}/assets/works2.jpeg`}
+      />
+      <img
+        className={styles["works-img"]}
+        alt="berserk works 3"
+        src={`${process.env.PUBLIC_URL}/assets/works3.jpeg`}
+      />
     </section>
   );
 }
