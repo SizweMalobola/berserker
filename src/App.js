@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CharacterSection from "./components/characters/CharacterSection";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import MangaSection from "./components/manga/MangaSection";
 import Navbar from "./components/navbar/Navbar";
@@ -22,6 +23,7 @@ export class App extends Component {
         <MangaSection />
         <CharacterSection />
         <WorksSection />
+        <Footer />
       </>
     );
   }
