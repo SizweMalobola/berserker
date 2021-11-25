@@ -16,7 +16,7 @@ export class App extends Component {
 
   render() {
     return (
-      <>
+      <div id="App">
         <Navbar />
         <Hero />
         <QuoteSection />
@@ -24,7 +24,7 @@ export class App extends Component {
         <CharacterSection />
         <WorksSection />
         <Footer />
-      </>
+      </div>
     );
   }
 }
