@@ -23,6 +23,11 @@ export default class Navbar extends Component {
               <span></span>
               <span></span>
             </div>
+            <div className={styles["nav-links"]}>
+              <span>Manga</span>
+              <span>Characters</span>
+              <span>Works</span>
+            </div>
           </div>
         </nav>
       </>
