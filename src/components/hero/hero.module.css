@@ -5,10 +5,20 @@
   z-index: 0;
   overflow: hidden;
 }
-.hero-container > img:first-child {
+.hero-container > div:first-child {
+  width: 100%;
+}
+.berserk-png {
   margin-bottom: 2rem;
+  width: 100%;
+}
+.hero-container > p {
+  font-size: 18px;
+  line-height: 22px;
   z-index: 4;
   display: block;
+  font-weight: 400;
+  width: 100%;
 }
 .background-hero-img {
   position: absolute;
@@ -18,13 +28,6 @@
   z-index: -1;
 }
 
-.hero-container > p {
-  font-size: 18px;
-  line-height: 22px;
-  z-index: 4;
-  display: block;
-  font-weight: 400;
-}
 /* background overlay */
 .hero-container > span {
   top: 0;
@@ -34,4 +37,36 @@
   width: 100%;
   background: rgba(255, 1, 1, 0.288);
   z-index: -1;
+}
+
+/* media queries */
+@media (min-width: 601px) {
+  .hero-container {
+    padding: 5rem 0px 5rem 53px;
+
+    border-bottom: 2px solid transparent;
+  }
+  .hero-container > div:first-child {
+    width: 70%;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-container {
+    height: calc(100vh - 68px);
+    padding-top: 10rem;
+  }
+  .hero-container > div:first-child {
+    width: 65%;
+    position: absolute;
+    left: 53px;
+    top: 20%;
+  }
+  .hero-container > div:first-child p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .hero-container > div:first-child {
+    width: 55%;
+  }
 }
