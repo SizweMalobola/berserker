@@ -1,5 +1,6 @@
 .character-box-container {
   width: 286px;
+  height: fit-content;
   background: rgba(244, 2, 2, 1);
   border: 2px solid whitesmoke;
   overflow: hidden;

@@ -1,5 +1,28 @@
 .characters-container {
   padding: 0 21px;
-  padding-bottom: 20px;
   border-bottom: 2px solid white;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "guts"
+    "griffith"
+    "casca";
+}
+
+@media (min-width: 601px) {
+  .characters-container {
+    border-bottom: 2px solid transparent;
+    padding: 0 51px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .characters-container h1 {
+    grid-area: header;
+  }
+  .characters-container {
+    grid-template-areas:
+      "header header header"
+      "guts griffith casca";
+  }
 }
