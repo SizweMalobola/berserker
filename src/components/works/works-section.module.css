@@ -6,3 +6,9 @@
   margin-bottom: 27px;
   width: 100%;
 }
+
+@media (min-width: 601px) {
+  .works-container {
+    padding: 1rem 51px;
+  }
+}
