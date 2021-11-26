@@ -3,3 +3,13 @@
   color: black;
   font-size: 36px;
 }
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 65px;
+  }
+}
+@media (min-width: 1280px) {
+  .heading {
+    font-size: 72px;
+  }
+}
