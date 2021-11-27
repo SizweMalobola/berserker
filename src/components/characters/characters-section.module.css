@@ -1,5 +1,5 @@
 .characters-container {
-  padding: 0 21px;
+  padding: 1rem 21px;
   border-bottom: 2px solid white;
   display: grid;
   grid-template-areas:
