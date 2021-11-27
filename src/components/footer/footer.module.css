@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .footer-container > h3 {
   font-weight: 900;
@@ -11,6 +12,12 @@
 }
 .footer-container > img {
   width: 18px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 .footer-container > div {
   display: flex;
@@ -21,4 +28,31 @@
 
 .footer-container > div > a img {
   width: 15px;
+}
+@media (min-width: 601px) {
+  .footer-container {
+    padding: 26px 51px;
+  }
+  .footer-container > h3 {
+    font-size: 15px;
+  }
+  .footer-container > div > a img {
+    width: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer-container > h3 {
+    font-size: 1rem;
+  }
+  .footer-container > div > a img {
+    width: 27px;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-container > h3 {
+    font-size: 1.3rem;
+  }
+  .footer-container > img {
+    width: 20px;
+  }
 }
